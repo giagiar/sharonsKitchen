@@ -58,6 +58,26 @@ hr {
     border-top: 1px solid #855000;
 }
 
+.headTitle{
+    position: relative;  
+    width:100vw;
+    padding: 20px 0 10px 0;
+    overflow-x:hidden;
+    z-index: 100;
+}
+
+.headTitle:after{
+ background-color:#855000;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width:100%;
+ left: 2%;
+ margin-right: -100%;
+
+}
 
 
 .rotate {
