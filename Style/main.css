@@ -47,11 +47,15 @@ a:hover {
     cursor: pointer;
 }
 
-h4, h5{
+h4{
     color: #855000;
     margin:0px 10px;
     font-weight: 600;
 }
+
+h5{ color: white; 
+    margin:0px 10px;
+    font-weight: 400;}
 
 hr {
     border: 0; 
